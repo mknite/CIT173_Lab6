@@ -1,0 +1,85 @@
+    1  pwd
+    2  cd ~
+    3  pwd
+    4  cleaer
+    5  clear
+    6  exit
+    7  mkdir CIT173_Lab6
+    8  ls
+    9  man groupadd
+   10  sudo groupadd actors
+   11  sudo groupadd directors
+   12  sudp groupadd producers
+   13  sudo groupadd producers
+   14  cat etc/group
+   15  cat /etc/group
+   16  sudo useradd mhamill -c Mark Hamill -g 1001
+   17  sudo useradd hford -c Harrison Ford -g 1001
+   18  sudo useradd cfisher -c Carrie Fisher -g 1001
+   19  cat /etc/group
+   20  cat /etc/passwd
+   21  cat /etc/group
+   22  cat /etc/group/actors
+   23  ls /etc/group/actors
+   24  cat /etc/passwd
+   25  sudo useradd mhamill
+   26  cat /etc/passwd
+   27  sudo useradd hford
+   28  cat /etc/passwd
+   29  sudo useradd cfisher
+   30  cat /etc/passwd
+   31  man usermod
+   32  sudo useradd glucas
+   33  sudo useradd gkurtz
+   34  man usermod
+   35  passwd mhamill
+   36  sudo passwd mhamill
+   37  passwd hford
+   38  sudo passwd hford
+   39  sudp passwd cfisher
+   40  sudo passwd cfisher
+   41  sudo passwd glucas
+   42  sudo passwd gkurtz
+   43  groups mhamill
+   44  usermod -c "Mark Hamill" mhamill
+   45  sudo usermod -c "Mark Hamill" mhamill
+   46  cat /etc/passwd
+   47  clear
+   48  sudo usermod -c "Harrison Ford" hford
+   49  sudo usermod -c "Carrie Fisher" cfisher
+   50  sudo usermod -c "George Lucas" glucas
+   51  sudo usermod -c "Gary Kurtz" gkurtz
+   52  cat /etc/passwd
+   53  id mhamill
+   54  sudo usermod -g actors mhamill
+   55  id mhamill
+   56  sudo usermod -g actors hford
+   57  id hford
+   58  sudo usermod -g actors cfisher
+   59  id cfisher
+   60  sudo usermod -G actors directors producers glucas
+   61  sudo usermod -G actors directors glucas
+   62  id glucas
+   63  sudo usermod -g actors glucas
+   64  id glucas
+   65  sudo usermod -G directors
+   66  id glucas
+   67  sudo usermod -g directors
+   68  ls glucas
+   69  id glucas
+   70  sudo usermod -g directors glucas
+   71  id glucas
+   72  sudo usermod -a -G producers glucas
+   73  id glucas
+   74  sudo usermod -g producers gkurtz
+   75  id gkurtz
+   76  man cp
+   77  cp /etc/passwd /etc/groups ~/CIT173_Lab6/
+   78  ls ~/CIT173_Lab6/
+   79  ls /etc/groups
+   80  ls /etc/group
+   81  cat /etc/group
+   82  clear
+   83  cp /etc/group ~/CIT173_Lab6/
+   84  ls ~/CIT173_Lab6/
+   85  history > ~/CIT173_Lab6/ex1-command-history.txt
